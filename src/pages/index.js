@@ -3,6 +3,7 @@ import * as React from 'react'
 // Import layout prop component
 import Layout from '../components/layout'
 import { StaticImage } from 'gatsby-plugin-image'
+import Seo from '../components/seo'
 
 // Define the component
 const IndexPage = () => {
@@ -18,7 +19,7 @@ const IndexPage = () => {
 }
 
 
-export const Head = () => <title>Home Page</title>
+export const Head = () => <Seo title="Home Page"></Seo>
 
 // export the component
 export default IndexPage
